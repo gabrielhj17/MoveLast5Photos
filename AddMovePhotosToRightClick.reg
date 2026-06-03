@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MoveLast5Photos]
+@="Move Last 5 Uploaded Photos Here"
+Icon="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MoveLast5Photos\command]
+@="wscript.exe \"C:\\Path\\To\\VBS\\File.vbs\" \"%V\""
